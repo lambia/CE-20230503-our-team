@@ -1,0 +1,28 @@
+body {
+    background: #222;
+    color: white;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    padding: 1rem;
+}
+
+#content > .card {
+    background: #444;
+    border: solid 1px #666;
+    border-radius: 6px;
+    margin: 1em;
+    padding: 1em;
+    width: 30vw;
+}
+
+#content > .card > img {
+    width: 100%;
+}
